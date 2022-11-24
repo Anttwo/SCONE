@@ -1,39 +1,13 @@
-import numpy as np
-import json
-import os
-import torch
-from torch.utils.data import Dataset, DataLoader
-from torch.utils.data.sampler import SubsetRandomSampler
-import gc
-from collections import OrderedDict
-
-from pytorch3d.datasets import (
-    collate_batched_meshes,
-    render_cubified_voxels,
-)
-from pytorch3d.renderer import (
-    TexturesVertex,
-    TexturesAtlas,
-)
-from pytorch3d.transforms import(
-    matrix_to_quaternion,
-    quaternion_apply,
-)
-from pytorch3d.loss import chamfer_distance
-from pytorch3d.ops import knn_gather
 from utils import *
 from CustomGeometry import *
-from CustomDataset import CustomDataset, CustomShapenetDataset
-from spherical_harmonics import evaluate_from_harmonic_coordinates, clear_spherical_harmonics_cache
+from CustomDataset import CustomShapenetDataset
+from spherical_harmonics import clear_spherical_harmonics_cache
 
 import torch.distributed as dist
 from torch.utils.data.distributed import DistributedSampler
 import idr_torch
 from torch.nn.parallel import DistributedDataParallel as DDP
 from spherical_harmonics import get_spherical_harmonics
-import torch.multiprocessing as mp
-
-import time
 
 from SconeOcc import SconeOcc
 from SconeVis import SconeVis, KLDivCE, L1_loss, Uncentered_L1_loss

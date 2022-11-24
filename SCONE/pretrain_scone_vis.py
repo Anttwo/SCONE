@@ -1,5 +1,4 @@
 # Updated from former script train_discoveries_faster.py
-import torch
 
 from scone_utils import *
 import sys
