@@ -9,10 +9,10 @@ SCONE: Surface Coverage Optimization in Unknown Environments<br> by Volumetric I
 <a href="https://imagine.enpc.fr/~monasse/">Pascal Monasse</a>&emsp;
 <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a>&emsp;
 
-![fushimi.gif](./docs/gifs/fushimi.gif)
-![museum.gif](./docs/gifs/museum.gif)
-![pantheon.gif](./docs/gifs/pantheon.gif)
-![colosseum.gif](./docs/gifs/colosseum.gif)
+<img src="./docs/gifs/fushimi.gif" alt="fushimi.gif" width="500"/>
+<img src="./docs/gifs/museum.gif" alt="museum.gif" width="500"/> <br>
+<img src="./docs/gifs/pantheon.gif" alt="pantheon.gif" width="500"/>
+<img src="./docs/gifs/colosseum.gif" alt="colosseum.gif" width="500"/>
 
 </h2>
 </div>
