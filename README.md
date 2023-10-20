@@ -19,6 +19,21 @@ SCONE: Surface Coverage Optimization in Unknown Environments<br> by Volumetric I
 
 Official PyTorch implementation of [**SCONE: Surface Coverage Optimization in Unknown Environments by Volumetric Integration**](https://arxiv.org/abs/2208.10449) (NeurIPS 2022, Spotlight).
 
+<div align="center">
+:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: 
+</div>
+<br>
+
+**We released a new model called MACARONS (CVPR 2023) which is a direct improvement of SCONE.<br> 
+MACARONS adapts the approach from SCONE to a fully self-supervised pipeline: It learns simultaneously to explore and reconstruct 3D scenes from RGB images only (there is no need for 3D ground truth data nor depth sensors). <br>
+The codebase of MACARONS includes an entire, updated version of SCONE's code as well as detailed instructions for generating the ShapeNet training data we used for SCONE. <br>
+Please refer to MACARONS' repo to find all the information you need.** <br>
+
+<div align="center">
+  Thank you! <br><br>
+  :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: 
+</div>
+
 This repository currently contains:
 
 - scripts to initialize and train models
